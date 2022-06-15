@@ -5,64 +5,75 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Document</title>
+    <link rel="stylesheet" href="./studio.css/styles.css" />
   </head>
   <body>
-    <!-- Секция верхняя линия -->
-    <header>
-      <nav>
-        <a href="">WebStudio</a>
+    <!-- Header-->
+    <header class="header">
+      <nav class="header-nav">
+        <a class="link-web link" href="">WebStudio</a>
         <ul>
           <li>
-            <a href="">Студия </a>
+            <a class="link-studio link" href="">Студия </a>
           </li>
           <li>
-            <a href="">Портфолио</a>
+            <a class="link-portfolio link" href="./portfolio.html">Портфолио</a>
           </li>
           <li>
-            <a href="">Контакты</a>
+            <a class="link-contact link" href="">Контакты</a>
           </li>
         </ul>
       </nav>
       <ul>
-        <li><a href="mailto:info@devstudio.com">info@devstudio.com</a></li>
-        <li><a href="tel:+380961111111">+38 096 111 11 11</a></li>
+        <li>
+          <a class="link-mail link" href="mailto:info@devstudio.com"
+            >info@devstudio.com</a
+          >
+        </li>
+        <li>
+          <a class="link-tel link" href="tel:+380961111111"
+            >+38 096 111 11 11</a
+          >
+        </li>
       </ul>
     </header>
     <main>
-      <!-- Секция шапка -->
-      <section>
-        <h1 lang="ru">Эффективные решения для вашего бизнеса</h1>
-        <button type="button">Заказать услугу</button>
+      <!-- Section-main -->
+      <section class="section-main">
+        <h1 class="title-main" lang="ru">
+          Эффективные решения для вашего бизнеса
+        </h1>
+        <button class="btn-main" type="button">Заказать услугу</button>
       </section>
 
-      <!-- Секция особенности -->
-      <section>
-        <h2>Особенности</h2>
-        <ul>
-          <li>
-            <h3>Внимание к деталям</h3>
-            <p>
+      <!-- Sections peculiarity -->
+      <section class="peculiarity">
+        <h2 class="peculiarity-title">Особенности</h2>
+        <ul class="peculiarity-list">
+          <li class="peculiarity-item">
+            <h3 class="peculiarity-title-detail">Внимание к деталям</h3>
+            <p class="peculiarity-text">
               Идейные соображения, а также начало повседневной работы по
               формированию позиции.
             </p>
           </li>
-          <li>
-            <h3>Пунктуальность</h3>
-            <p>
+          <li class="punctuality-item">
+            <h3 class="punctuality-title">Пунктуальность</h3>
+            <p class="punctuality-text">
               Задача организации, в особенности же рамки и место обучения кадров
               влечет за собой.
             </p>
           </li>
-          <li>
-            <h3>Планирование</h3>
-            <p>
+          <li class="plannig-item">
+            <h3 class="plannig-title">Планирование</h3>
+            <p class="plannig-text">
               Равным образом консультация с широким активом в значительной
               степени обуславливает.
             </p>
           </li>
-          <li>
-            <h3>Современные технологии</h3>
-            <p>
+          <li class="technology-item">
+            <h class="technology-title">Современные технологии</h>
+            <p class="technology-text">
               Значимость этих проблем настолько очевидна, что реализация
               плановых заданий.
             </p>
@@ -70,28 +81,31 @@
         </ul>
       </section>
 
-      <!-- Чем мы занимаемся -->
-      <section>
-        <h2 lang="ru">Чем мы занимаемся</h2>
-        <ul>
-          <li>
+      <!-- Occupation-->
+      <section class="occupation">
+        <h2 class="occupation-title" lang="ru">Чем мы занимаемся</h2>
+        <ul class="occupation-list">
+          <li class="occupation-item-1">
             <img
+              class="occupation-img-1"
               src="./img/foto-1/box-1.jpg"
               alt="code entry"
               width="370"
               height="295"
             />
           </li>
-          <li>
+          <li class="occupation-item-2">
             <img
+              class="occupation-img-2"
               src="./img/foto-1/box-2.jpg"
               alt="effective advertising"
               width="370"
               height="295"
             />
           </li>
-          <li>
+          <li class="occupation-item-3">
             <img
+              class="occupation-img-3"
               src="./img/foto-1/box-3.jpg"
               alt="site design"
               width="370"
@@ -101,68 +115,81 @@
         </ul>
       </section>
 
-      <!-- Наша команда -->
-      <section>
-        <h2 lang="ru">Наша команда</h2>
-        <ul>
-          <li>
+      <!-- Team-->
+      <section class="team">
+        <h2 class="team-title" lang="ru">Наша команда</h2>
+        <ul class="team-list">
+          <li class="team-item">
             <img
+              class="team-img-1"
               src="./img/foto-2/img-1.jpg"
               alt="foto igorya"
               width="270"
               height="260"
             />
-            <h3 lang="ru">Игорь Демьяненко</h3>
-            <p>Product Designer</p>
+            <h3 class="team-title-1" lang="ru">Игорь Демьяненко</h3>
+            <p class="team-text-1">Product Designer</p>
           </li>
-          <li>
+          <li class="team-item-2">
             <img
+              class="team-img-2"
               src="./img/foto-2/img-2.jpg"
               alt="foto olgi"
               width="270"
               height="260"
             />
-            <h3 lang="ru">Ольга Репина</h3>
-            <p>Frontend Developer</p>
+            <h3 class="team-title-2" lang="ru">Ольга Репина</h3>
+            <p class="team-text-2">Frontend Developer</p>
           </li>
-          <li>
+          <li class="team-item-3">
             <img
+              class="team-img-3"
               src="./img/foto-2/img-3.jpg"
               alt="foto nikolaya"
               width="270"
               height="260"
             />
-            <h3 lang="ru">Николай Тарасов</h3>
-            <p>Marketing</p>
+            <h3 class="team-title-3" lang="ru">Николай Тарасов</h3>
+            <p class="team-text-3">Marketing</p>
           </li>
-          <li>
+          <li class="team-item-4">
             <img
+              class="team-img-4"
               src="./img/foto-2/img-4.jpg"
               alt="foto mihaila"
               width="270"
               height="260"
             />
-            <h3 lang="ru">Михаил Ермаков</h3>
-            <p>UI Designer</p>
+            <h3 class="team-title-4" lang="ru">Михаил Ермаков</h3>
+            <p class="team-text-4">UI Designer</p>
           </li>
         </ul>
       </section>
 
-      <!-- Подвал -->
-      <footer>
-        <a href="">WebStudio</a>
-        <address>
-          <ul>
-            <li>
+      <!-- Footer -->
+      <footer class="footer">
+        <a class="footer-link" href="">WebStudio</a>
+        <address class="footer-add">
+          <ul class="footer-list">
+            <li class="footer-item">
               <a
+                class="footer-link-add"
                 href="https://goo.gl/maps/XpyvQURJ9dLzocEZ8"
                 target="_blank"
                 rel="noopener noreferrer"
                 >г.Киев,пр-т. Леси Украинки 26
               </a>
             </li>
-            <li><a href="mailto:info@example.com">info@example.com</a></li>
-            <li><a href="tel:+380991111111">+38 099 111 11 11</a></li>
+            <li class="footer-item-mail">
+              <a class="footer-link-mail" href="mailto:info@example.com"
+                >info@example.com</a
+              >
+            </li>
+            <li class="footer-item-tel">
+              <a class="footer-link-tel" href="tel:+380991111111"
+                >+38 099 111 11 11</a
+              >
+            </li>
           </ul>
         </address>
       </footer>
