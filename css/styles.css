@@ -1,11 +1,6 @@
-/* body {
-  display: flex;
-  flex-direction: column;
+.link {
+  text-decoration: none;
 }
-
-.content {
-  flex-grow: 1;
-} */
 
 /* Секция верхняя линия */
 .header-nav-link-web {
@@ -273,7 +268,8 @@
   color: #757575;
 }
 
-.foter-link {
+/* Footer */
+.footer-link {
   font-family: "Raleway";
   font-style: normal;
   font-weight: 700;
@@ -283,7 +279,7 @@
   color: #2196f3;
 }
 
-.foter-link-address {
+.footer-link-address {
   font-family: "Roboto";
   font-style: normal;
   font-weight: 400;
@@ -293,16 +289,31 @@
   color: #ffffff;
 }
 
-* {
-  padding: 0;
-  margin: 0;
-}
-
-.foter {
-  position: absolute;
+.footer {
+  /* position: absolute;
   width: 1600px;
   height: 252px;
   left: 0px;
-  top: 1628px;
+  top: 1628px; */
   background: #2f303a;
+}
+
+.footer-link-mail {
+  font-family: "Roboto";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 24px;
+  letter-spacing: 0.03em;
+  color: rgba(255, 255, 255, 0.6);
+}
+
+.footer-link-tel {
+  font-family: "Roboto";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 24px;
+  letter-spacing: 0.03em;
+  color: rgba(255, 255, 255, 0.6);
 }
