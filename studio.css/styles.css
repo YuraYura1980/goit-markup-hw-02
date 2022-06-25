@@ -26,8 +26,6 @@ ul {
 
 /* Header */
 .header-span {
-  font-family: "Raleway";
-  font-style: normal;
   font-weight: 700;
   font-size: 26px;
   line-height: 1.19;
@@ -46,8 +44,6 @@ ul {
 }
 
 .header-link {
-  font-family: "Roboto";
-  font-style: normal;
   font-weight: 500;
   font-size: 14px;
   line-height: 1.14;
@@ -56,8 +52,6 @@ ul {
 }
 
 .header-link-act {
-  font-family: "Roboto";
-  font-style: normal;
   font-weight: 500;
   font-size: 14px;
   line-height: 1.14;
@@ -66,8 +60,6 @@ ul {
 }
 
 .header-link-tel {
-  font-family: "Roboto";
-  font-style: normal;
   font-weight: 500;
   font-size: 14px;
   line-height: 1.14;
@@ -83,8 +75,6 @@ ul {
 
 /* Section-main */
 .main-title {
-  font-family: "Roboto";
-  font-style: normal;
   font-weight: 900;
   font-size: 44px;
   line-height: 1.36;
@@ -122,8 +112,6 @@ ul {
 
 /* Hero */
 .hero-title {
-  font-family: "Roboto";
-  font-style: normal;
   font-weight: 700;
   font-size: 14px;
   line-height: 1.14;
@@ -133,8 +121,6 @@ ul {
 }
 
 .hero-text {
-  font-family: "Roboto";
-  font-style: normal;
   font-weight: 400;
   font-size: 14px;
   line-height: 1.71;
@@ -143,8 +129,6 @@ ul {
 }
 
 .occupation-title {
-  font-family: "Roboto";
-  font-style: normal;
   font-weight: 700;
   font-size: 36px;
   line-height: 1.17;
@@ -155,8 +139,6 @@ ul {
 
 /* Team */
 .team-logo {
-  font-family: "Roboto";
-  font-style: normal;
   font-weight: 700;
   font-size: 36px;
   line-height: 1.17;
@@ -166,8 +148,6 @@ ul {
 }
 
 .team-title {
-  font-family: "Roboto";
-  font-style: normal;
   font-weight: 500;
   font-size: 16px;
   line-height: 1.19;
@@ -176,8 +156,6 @@ ul {
   color: var(--primery-text-color);
 }
 .team-text {
-  font-family: "Roboto";
-  font-style: normal;
   font-weight: 400;
   font-size: 16px;
   line-height: 1.19;
