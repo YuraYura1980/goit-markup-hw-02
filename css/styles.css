@@ -44,12 +44,15 @@ ul {
   color: var(--primery-text-color);
 }
 
-/* Header */
 .header-logo {
   font-weight: 700;
   font-size: 26px;
   line-height: 1.19;
   color: #2196f3;
+}
+
+.cursors {
+  cursor: pointer;
 }
 
 .header-link {
